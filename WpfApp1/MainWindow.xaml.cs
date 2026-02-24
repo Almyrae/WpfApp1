@@ -20,8 +20,8 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
-        public int _width = 0;
-        public int _height = 0;
+        public int _width = 99; // changed to 99
+        public int _height = 99;
         public bool _start = false;
         public Random rnd = new Random();
         public int _cnt = 0;
